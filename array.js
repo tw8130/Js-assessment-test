@@ -5,7 +5,7 @@
 
 function createArray(arr) {
     if (arr.length >= 1) {
-        var newArray = [arr[0], arr[arr.length - 1]];
+        let newArray = [arr[0], arr[arr.length - 1]];
         return newArray;
     } else {
         console.log("Array length must be larger than or equal to 1.");
@@ -14,7 +14,7 @@ function createArray(arr) {
 
 
 const cars = ["BMW", "Audi", "RangeRover", "Ford", "Tesla"];
-var result = createArray(cars);
+let result = createArray(cars);
 console.log(result);
 
 const YOM = [];
